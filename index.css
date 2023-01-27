@@ -145,7 +145,6 @@ footer a {
 }
 
 .statusContainer + .statusContainer {
-  border-top: 1px solid #ff8200;
   margin-top: 30px;
 }
 
@@ -229,7 +228,7 @@ footer a {
 
 .nodata {
   background-color: #f8f8f8;
-  color: #ccc;
+  color: #878787;
 }
 
 .partial {
