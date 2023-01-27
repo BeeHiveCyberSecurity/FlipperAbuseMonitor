@@ -8,10 +8,10 @@ html {
   flex-direction: column;
 }
 body {
-  background-color: #181917;
+  background-color: #000000;
   color: #fff;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Helvetica Neue", "Ubuntu", sans-serif;
   justify-content: center;
@@ -39,8 +39,8 @@ textarea,
 }
 
 h1 {
-  color: #FFFF00;
-  font-size: 32px;
+  color: #ff8404;
+  font-size: 34px;
   font-weight: bold;
   margin: 65px;
 }
@@ -78,7 +78,7 @@ h6 {
   margin-bottom: 4px;
 }
 a {
-  color: #194b7d;
+  color: #ff8404;
   text-decoration: none;
 }
 
