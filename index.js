@@ -108,25 +108,25 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "Analyzing..."
     : color == "success"
-    ? "Fully Operational"
+    ? "Available"
     : color == "failure"
-    ? "Major Disruption"
+    ? "Terminated"
     : color == "partial"
-    ? "Partial Disruption"
+    ? "Being Given Hell"
     : "Unknown";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "No data available for this time block, check back later..."
     : color == "success"
-    ? "Unaffected on this day"
+    ? "Website may be partially operational, or may be on a hosted domain that reports no downtime..."
     : color == "failure"
-    ? "Extremely disrupted on this day. Note: For websites protected by Cloudflare, this will show when the website is set to Under Attack Mode"
+    ? "This service was terminated by BeeHive Enforcement, and was unavailable..."
     : color == "partial"
-    ? "Partially disrupted on this day"
+    ? "Long story, and a longer evening. We're working here..."
     : "Unknown";
 }
 
