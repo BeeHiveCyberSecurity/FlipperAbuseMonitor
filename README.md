@@ -8,7 +8,7 @@ This repo contains the website that tracks websites that are known to abuse the 
 
 
 ## Find a Dangerous Website?
-Please report it to us at flipper@beehive.systems
+Please report it to us at [flipper@beehive.systems](mailto:flipper@beehive.systems?subject=Dangerous%20Website)
 ## Used By
 
 This project is used by the following companies:
