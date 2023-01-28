@@ -223,9 +223,9 @@ function showTooltip(element, key, date, color) {
   statusDiv.innerText = getStatusText(color);
   statusDiv.className = color;
 
-  toolTipDiv.style.top = element.offsetTop + element.offsetHeight + 10;
+  toolTipDiv.style.top = String(element.offsetTop + element.offsetHeight + 10) + "px";
   toolTipDiv.style.left =
-    element.offsetLeft + element.offsetWidth / 2 - toolTipDiv.offsetWidth / 2;
+    String(element.offsetLeft + element.offsetWidth / 2 - toolTipDiv.offsetWidth / 2) + "px";
   toolTipDiv.style.opacity = "1";
 }
 
