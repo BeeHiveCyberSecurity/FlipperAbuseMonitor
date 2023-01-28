@@ -1,9 +1,22 @@
-# FlipperAbuseMonitor
-A website status page that checks whether known Flipper scam domains are available or offline like they should be. If you make it on this list, you’re probably a garbage can. 
+
+![Logo](https://i.imgur.com/lTc3dDG.png)
 
 
-# Find a website? Let us know!
-flipper at beehive dot systems
+# Flipper Abuse Monitor
 
-# Feel like making this better?
-You're more welcome if you're able to understand how the page works and write appropriately for it. Be big brain. 
+This repo contains the website that tracks websites that are known to abuse the intellectual property of our partner, Flipper Devices. 
+
+
+## Find a Dangerous Website?
+Please report it to us at flipper@beehive.systems
+## Used By
+
+This project is used by the following companies:
+
+- Flipper Devices, LLC
+- BeeHive CyberSecurity
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at https://twitter.com/BeeHiveCyberSec
