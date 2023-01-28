@@ -218,16 +218,19 @@ footer a {
 
 .success {
   background-color: #4cae50;
+  box-shadow: 0 0 7px 1px #4cae4f9a;
   color: #fff;
 }
 
 .failure {
   background-color: #f44336;
+  box-shadow: 0 0 7px 1px #f443369a;
   color: #fff;
 }
 
 .nodata {
   background-color: #f8f8f8;
+  
   color: #878787;
 }
 
