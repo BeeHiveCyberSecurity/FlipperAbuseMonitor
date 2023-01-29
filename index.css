@@ -34,7 +34,7 @@ textarea,
 .copyright,
 .button {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Helvetica Neue", "Ubuntu", sans-serif;
+    "Helvetica Neue", "Ubuntu", monospace;
   line-height: 125%;
 }
 
@@ -42,7 +42,7 @@ h1 {
   color: #ff8404;
   font-size: 34px;
   font-family: -apple-system, BlinkMacSystemFont, "Lucida Console", "Roboto",
-    "Helvetica Neue", "Ubuntu", sans-serif;
+    "Helvetica Neue", "Ubuntu", monospace;
   font-weight: bold;
   margin: 65px;
 }
