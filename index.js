@@ -108,7 +108,7 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "Analyzing..."
+    ? "Monitoring"
     : color == "success"
     ? "Available"
     : color == "failure"
