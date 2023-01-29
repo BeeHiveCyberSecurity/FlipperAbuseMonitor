@@ -41,6 +41,8 @@ textarea,
 h1 {
   color: #ff8404;
   font-size: 34px;
+  font-family: -apple-system, BlinkMacSystemFont, "Courier New", "Roboto",
+    "Helvetica Neue", "Ubuntu", sans-serif;
   font-weight: bold;
   margin: 65px;
 }
