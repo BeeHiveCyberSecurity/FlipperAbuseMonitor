@@ -3,10 +3,6 @@
 # later upstream merges messy for anyone who forked us.
 commit=true
 origin=$(git remote get-url origin)
-if [[ $origin == *statsig-io/statuspage* ]]
-then
-  commit=false
-fi
 
 KEYSARRAY=()
 URLSARRAY=()
@@ -50,7 +46,7 @@ do
   then
     echo $dateTime, $result >> "logs/${key}_report.log"
     # By default we keep 2000 last log entries.  Feel free to modify this to meet your needs.
-    echo "$(tail -2000 logs/${key}_report.log)" > "logs/${key}_report.log"
+    echo "$(tail -6000 logs/${key}_report.log)" > "logs/${key}_report.log"
   else
     echo "    $dateTime, $result"
   fi
@@ -58,7 +54,6 @@ done
 
 if [[ $commit == true ]]
 then
-  # Let's make Vijaye the most productive person on GitHub.
   git config --global user.name 'BeeHive CyberSecurity'
   git config --global user.email 'security@beehive.systems'
   git add -A --force logs/
