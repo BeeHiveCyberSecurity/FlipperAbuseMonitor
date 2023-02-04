@@ -139,10 +139,10 @@ footer a {
 }
 
 .statusContainer {
-  border: 2px solid #ff8200;
+  border: 5px solid #ff8200;
   border-radius: 5px;
   padding-top: 20px;
-  text-align: left;
+  text-align: center;
   padding: 24px;
 }
 
