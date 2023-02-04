@@ -181,7 +181,7 @@ footer a {
   align-items: center;
   margin-bottom: 2px;
   text-transform: uppercase;
-  text-shadow: 5px 5px #000;
+  text-shadow: 1px 1px #000;
 }
 
 .statusSubtitle {
