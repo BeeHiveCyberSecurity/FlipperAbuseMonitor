@@ -168,6 +168,7 @@ footer a {
 
 .sectionUrl {
   font-size: 9px;
+  color: #7c7c7c
 }
 
 .statusTitle {
@@ -180,6 +181,7 @@ footer a {
   align-items: center;
   margin-bottom: 2px;
   text-transform: uppercase;
+  text-shadow: 5px 5px #000;
 }
 
 .statusSubtitle {
