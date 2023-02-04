@@ -110,7 +110,7 @@ function getStatusText(color) {
   return color == "nodata"
     ? "Monitoring"
     : color == "success"
-    ? "Available"
+    ? "Pending Takedown"
     : color == "failure"
     ? "Terminated"
     : color == "partial"
