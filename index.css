@@ -179,6 +179,7 @@ footer a {
   flex-direction: row;
   align-items: center;
   margin-bottom: 2px;
+  text-transform: uppercase;
 }
 
 .statusSubtitle {
@@ -186,6 +187,7 @@ footer a {
   flex-direction: row;
   align-items: center;
   margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 .statusHeadline {
@@ -195,6 +197,7 @@ footer a {
   font-size: 12px;
   font-weight: 700;
   margin-left: 12px;
+  text-transform: uppercase;
 }
 
 .statusUptime {
