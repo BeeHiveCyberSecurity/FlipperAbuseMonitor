@@ -1,4 +1,4 @@
-const maxDays = 30;
+const maxDays = 90;
 
 async function genReportLog(container, key, url) {
   const response = await fetch("logs/" + key + "_report.log");
