@@ -108,13 +108,13 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "Monitoring"
+    ? "MONITORING"
     : color == "success"
-    ? "Pending Takedown"
+    ? "AWAITING TAKEDOWN"
     : color == "failure"
-    ? "Terminated"
+    ? "TERMINATED"
     : color == "partial"
-    ? "Being Given Hell"
+    ? "UNDER ACTION"
     : "Unknown";
 }
 
@@ -122,7 +122,7 @@ function getStatusDescriptiveText(color) {
   return color == "nodata"
     ? "No data available for this time block, check back later..."
     : color == "success"
-    ? "Website may be partially operational, or may be on a hosted domain that reports no downtime..."
+    ? "Website may be partially operational, check back later to see if we've changed that..."
     : color == "failure"
     ? "This service was terminated by BeeHive Enforcement, and was unavailable..."
     : color == "partial"
