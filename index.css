@@ -167,7 +167,7 @@ footer a {
 }
 
 .sectionUrl {
-  font-size: 9px;
+  font-size: 7px;
   color: #7c7c7c
 }
 
@@ -189,7 +189,7 @@ footer a {
   flex-direction: row;
   align-items: center;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #7c7c7c;
 }
 
