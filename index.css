@@ -298,6 +298,7 @@ footer a {
   font-weight: bold;
   margin-top: 6px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .tooltip hr {
