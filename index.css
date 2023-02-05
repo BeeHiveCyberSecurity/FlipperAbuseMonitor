@@ -275,21 +275,21 @@ footer a {
 }
 
 .tooltip .tooltipDateTime {
-  font-size: 12px;
-  color: #7c7c7c;
+  font-size: 14px;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .tooltip .tooltipKey {
-  color: #ccc;
+  color: #fff;
   font-size: 10px;
 }
 
 .tooltip .tooltipDescription {
   margin-top: 12px;
   font-size: 14px;
-  color: #181818;
+  color: #fff;
 }
 
 .tooltip #tooltipStatus {
