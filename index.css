@@ -249,7 +249,7 @@ footer a {
 }
 
 .tooltip {
-  background-color: #fff;
+  background-color: #000;
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: #3b3b3b;
@@ -257,7 +257,7 @@ footer a {
   line-height: 18px;
   padding: 16px;
   position: absolute;
-  text-align: left;
+  text-align: center;
   z-index: 100;
   width: 240px;
   transition: opacity 0.2s;
