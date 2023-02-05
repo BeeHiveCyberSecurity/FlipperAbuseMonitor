@@ -200,7 +200,7 @@ footer a {
   font-size: 12px;
   font-weight: 700;
   margin-left: 12px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .statusUptime {
