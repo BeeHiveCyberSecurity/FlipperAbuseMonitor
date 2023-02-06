@@ -225,31 +225,31 @@ footer a {
 
 .success {
   background-color: #2596be;
-  box-shadow: 0 0 7px 1px #4cae4f9a;
+  box-shadow: 0 0 8px 1px #4cae4f9a;
   color: #fff;
 }
 
 .failure {
   background-color: #f44336;
-  box-shadow: 0 0 7px 1px #f443369a;
+  box-shadow: 0 0 8px 1px #f443369a;
   color: #fff;
 }
 
 .nodata {
   background-color: #f8f8f8;
   
-  color: #878787;
+  color: #7f8d92;
 }
 
 .partial {
   background-color: #ff9800;
-  box-shadow: 0 0 7px 1px #ff98009a;
+  box-shadow: 0 0 8px 1px #ff98009a;
   color: #fff;
 }
 
 .tooltip {
   background-color: #000;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
