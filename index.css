@@ -274,15 +274,15 @@ footer a {
 }
 
 .tooltip .tooltipDateTime {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .tooltip .tooltipKey {
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .tooltip .tooltipDescription {
@@ -294,7 +294,7 @@ footer a {
 .tooltip #tooltipStatus {
   padding: 4px 8px;
   border-radius: 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 6px;
   display: inline-block;
