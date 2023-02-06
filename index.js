@@ -124,7 +124,7 @@ function getStatusDescriptiveText(color) {
     : color == "success"
     ? "Website may be partially operational, check back later to see if we've changed that..."
     : color == "failure"
-    ? "This service was terminated by BeeHive Enforcement\n#DeadInTheWater"
+    ? "This service was terminated by BeeHive Enforcement\n\n#DeadInTheWater"
     : color == "partial"
     ? "Long story, and a longer evening. We're working here..."
     : "Unknown";
