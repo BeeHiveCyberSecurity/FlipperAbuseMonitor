@@ -57,6 +57,6 @@ then
   git config --global user.name 'BeeHive CyberSecurity'
   git config --global user.email 'security@beehive.systems'
   git add -A --force logs/
-  git commit -o '[Automated] Abuse Monitor Logs'
+  git commit -am '[Automated] Abuse Monitor Logs'
   git push
 fi
