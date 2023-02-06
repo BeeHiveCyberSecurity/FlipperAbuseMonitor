@@ -57,6 +57,6 @@ then
   git config --global user.name 'BeeHive CyberSecurity'
   git config --global user.email 'security@beehive.systems'
   git add -A --force logs/
-  git commit -am '[Automated] Update Logs'
+  git commit -o -am '[Automated] Update Logs'
   git push
 fi
