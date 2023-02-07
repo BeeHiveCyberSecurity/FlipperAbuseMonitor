@@ -143,9 +143,9 @@ footer a {
   justify-content: flex-start;
 }
 .statusSquare {
-  border-radius: 1px;
+  border-radius: 10px;
   height: 30px;
-  min-width: 8px;
+  min-width: 10px;
   width: 100%;
 }
 .statusSquare + .statusSquare {
