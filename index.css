@@ -126,7 +126,7 @@ footer a {
 }
 .reportContainer {
   margin: 5px auto;
-  width: 50%;
+  width: 100%
 }
 .statusContainer {
   border: 5px outset #ff8200;
