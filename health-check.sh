@@ -39,7 +39,7 @@ do
     if [ "$result" = "success" ]; then
       break
     fi
-    sleep 5
+    sleep 2
   done
   dateTime=$(date +'%Y-%m-%d %H:%M')
   if [[ $commit == true ]]
