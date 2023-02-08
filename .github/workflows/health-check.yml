@@ -4,7 +4,7 @@ name: Scheduled Health Check
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 * * * *"
+    - cron: "45 * * * *"
 
 jobs:
   health_check_job:
