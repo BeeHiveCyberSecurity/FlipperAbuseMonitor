@@ -101,6 +101,7 @@ h6 {
 }
 a {
   color: #ff8404;
+  font-size: 5px;
   text-decoration: none;
 }
 .outlineButton,
@@ -151,7 +152,7 @@ footer a {
   width: 100%
 }
 .statusContainer {
-  border: 100px outset #ff8200;
+  border: 5px outset #ff8200;
   border-radius: 5px;
   padding-top: 10px;
   text-align: center;
