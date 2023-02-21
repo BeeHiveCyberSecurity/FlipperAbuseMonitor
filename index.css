@@ -4,7 +4,6 @@
 html {
   height: 100%;
   display: flex;
-  flex-direction: row;
 }
 details {
     border: 2px solid #fff000;
@@ -154,14 +153,13 @@ footer a {
 .reportContainer {
   margin: 5px auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   justify-content: center;
-  width: 100%
+  width: 100%;
 }
 
-.wrap { 
-  -webkit-flex-wrap: wrap;
+.wrap {
+  /* -webkit-flex-wrap: wrap; */
   flex-wrap: wrap;
 } 
 
@@ -172,25 +170,28 @@ footer a {
   text-align: center;
   padding: 12px;
   margin: 5px;
-  flex: 1;
+  width: 500px;
+  
   
 }
 .statusContainer + .statusContainer {
   margin-top: 30px;
+  width: 100px;
 }
 .statusStreamContainer {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  
 }
 .statusSquare {
   border-radius: 20px;
   height: 20px;
   min-width: 10px;
-  width: 100%;
+  width: 50%;
 }
 .statusSquare + .statusSquare {
-  margin-left: 6px;
+  margin-left: 0.5px;
 }
 .sectionUrl {
   font-size: 14px;
