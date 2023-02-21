@@ -148,6 +148,7 @@ footer a {
 }
 .reportContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5px auto;
   width: 100%
