@@ -153,6 +153,9 @@ footer a {
 
 .reportContainer {
   margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
   width: 100%
 }
 
