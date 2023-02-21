@@ -4,12 +4,12 @@
 html {
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 details {
     border: 2px solid #fff000;
-    color: #ff8404
-    background-color: #000
+    color: #ff8404;
+    background-color: #000000;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", sans-serif;
     justify-content: center;
     border-radius: 4px;
