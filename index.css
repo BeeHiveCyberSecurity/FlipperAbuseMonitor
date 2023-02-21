@@ -157,12 +157,20 @@ footer a {
   margin: 5px auto;
   width: 100%
 }
+
+.wrap { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+} 
 .statusContainer {
   border: 5px outset #ff9800;
   border-radius: 5px;
   padding-top: 10px;
   text-align: center;
   padding: 12px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 .statusContainer + .statusContainer {
   margin-top: 30px;
