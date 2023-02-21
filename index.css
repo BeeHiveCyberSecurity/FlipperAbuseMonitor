@@ -148,6 +148,7 @@ footer a {
 }
 .reportContainer {
   -ms-box-orient: horizontal;
+  list-style: none;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -168,9 +169,7 @@ footer a {
   padding-top: 10px;
   text-align: center;
   padding: 12px;
-  margin: 10px;
-  line-height: 100px;
-
+  
 }
 .statusContainer + .statusContainer {
   margin-top: 30px;
