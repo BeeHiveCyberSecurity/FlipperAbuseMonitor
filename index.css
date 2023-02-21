@@ -168,9 +168,9 @@ footer a {
   padding-top: 10px;
   text-align: center;
   padding: 12px;
-  width: 100px;
-  height: 100px;
   margin: 10px;
+  line-height: 100px;
+
 }
 .statusContainer + .statusContainer {
   margin-top: 30px;
