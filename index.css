@@ -147,11 +147,12 @@ footer a {
   text-transform: uppercase;
 }
 .reportContainer {
+  display: flex;
   margin: 5px auto;
   width: 100%
 }
 .statusContainer {
-  border: 5px outset #ff8200;
+  border: 5px outset #f0f0f0;
   border-radius: 5px;
   padding-top: 10px;
   text-align: center;
