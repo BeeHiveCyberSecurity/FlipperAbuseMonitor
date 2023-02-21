@@ -4,16 +4,17 @@
 html {
   height: 100%;
   display: flex;
-  flex-direction: column;
 }
 details {
     border: 2px solid #fff000;
-    color: #ff8404
-    background-color: #000
+    color: #ff8404;
+    background-color: #000000;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Ubuntu", sans-serif;
     justify-content: center;
     border-radius: 4px;
+    width: 45%;
     padding: 0.5em 0.5em 0;
+    
 }
 summary {
     font-weight: bold;
@@ -128,8 +129,9 @@ footer a {
   background-color: #000;
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
   border-radius: 2px;
-  max-width: 900px;
-  width: 100%;
+  max-width: 2000px;
+  width: 999px;
+  justify-content: center;
   margin: 96px auto;
 }
 .headline {
@@ -146,39 +148,54 @@ footer a {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.flex-container {
+  display: flex;
+}
+
 .reportContainer {
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
-  margin: 5px auto;
-  width: 100%
+  text-align: center;
+  width: 1300px;
 }
+
+.wrap {
+  /* -webkit-flex-wrap: wrap; */
+  flex-wrap: wrap;
+} 
+
 .statusContainer {
   border: 5px outset #ff9800;
   border-radius: 5px;
   padding-top: 10px;
   text-align: center;
   padding: 12px;
+  margin: 5px;
+  min-width: min-content;
+  max-width: max-content;
 }
 .statusContainer + .statusContainer {
-  margin-top: 30px;
+  margin-to: 30px;
+  width:100px;
 }
 .statusStreamContainer {
   display: flex;
   justify-content: flex-start;
+  
 }
 .statusSquare {
   border-radius: 20px;
-  height: 20px;
+  height: 15px;
   min-width: 10px;
   width: 100%;
 }
 .statusSquare + .statusSquare {
-  margin-left: 6px;
+  margin-left: 1px;
 }
 .sectionUrl {
-  font-size: 14px;
+  font-size: 10px;
   color: #7c7c7c
 }
 .statusTitle {
@@ -206,7 +223,7 @@ footer a {
   border-radius: 15px;
   font-size: 14px;
   font-weight: 700;
-  margin-left: 12px;
+  margin-left: 85px;
 }
 .statusUptime {
   flex: 1;
