@@ -179,6 +179,7 @@ footer a {
 .statusStreamContainer {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
 }
 .statusSquare {
   border-radius: 20px;
