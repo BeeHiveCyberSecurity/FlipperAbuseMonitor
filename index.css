@@ -146,9 +146,12 @@ footer a {
   font-weight: 700;
   text-transform: uppercase;
 }
-.reportContainer {
+
+.flex-container {
   display: flex;
-  flex-flow: row wrap;
+}
+
+.reportContainer {
   margin: 5px auto;
   width: 100%
 }
@@ -157,12 +160,14 @@ footer a {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 } 
+
 .statusContainer {
   border: 5px outset #ff9800;
   border-radius: 5px;
   padding-top: 10px;
   text-align: center;
   padding: 12px;
+  margin: 5px;
   
 }
 .statusContainer + .statusContainer {
