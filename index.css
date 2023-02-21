@@ -155,7 +155,8 @@ footer a {
   margin: 5px auto;
   display: flex;
   flex-direction: row;
-  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%
 }
 
@@ -171,6 +172,7 @@ footer a {
   text-align: center;
   padding: 12px;
   margin: 5px;
+  flex: 1;
   
 }
 .statusContainer + .statusContainer {
