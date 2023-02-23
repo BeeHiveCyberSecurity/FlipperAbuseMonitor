@@ -41,6 +41,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 100%;
   transition: opacity 0.8s;
 }
 h1,
