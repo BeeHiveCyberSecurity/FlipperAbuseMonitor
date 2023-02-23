@@ -159,7 +159,8 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  width: 1300px;
+  /* width: 1300px; */
+  width: 1285px;
 }
 
 .wrap {
