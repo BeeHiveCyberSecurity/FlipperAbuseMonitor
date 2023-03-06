@@ -28,7 +28,7 @@ do
   url="${URLSARRAY[index]}"
   echo "  $key=$url"
 
-  for i in 1 2 3 4; 
+  for i in 1 2 3 4;
   do
     response=$(curl --write-out '%{http_code}' --silent --output /dev/null $url)
     if [ "$response" -eq 200 ] || [ "$response" -eq 202 ]; then
@@ -39,7 +39,7 @@ do
     if [ "$result" = "success" ]; then
       break
     fi
-    sleep 2
+    sleep 1
   done
   dateTime=$(date +'%Y-%m-%d %H:%M')
   if [[ $commit == true ]]
