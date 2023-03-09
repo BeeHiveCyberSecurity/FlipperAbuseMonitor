@@ -56,7 +56,8 @@ if [[ $commit == true ]]
 then
   git config --global user.name 'BeeHive CyberSecurity'
   git config --global user.email 'security@beehive.systems'
+  git pull
   git add -A --force logs/
-  git commit -am '[Automated] Abuse Monitor Logs'
+  git commit -s -am '[Automated] Abuse Monitor Logs'
   git push
 fi
