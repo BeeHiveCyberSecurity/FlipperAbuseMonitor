@@ -8,12 +8,12 @@ This repo contains the website that tracks websites that are known to abuse the 
 
 
 ## Find a Dangerous Website?
-Please report it to us at [flipper@beehive.systems](mailto:flipper@beehive.systems?subject=Dangerous%20Website), or preferably the webform located at this very monitor  
+Please report it to us at [our threat feed inbox](mailto:threatfeed@beehive.systems?subject=Dangerous%20Website), or preferably the webform located at this very [monitor](https://flipperabusemonitor.beehive.systems)  
 ## Used By
 
 This project is used by the following companies:
 
-- Flipper Devices, LLC
+- Flipper Devices, INC
 - BeeHive CyberSecurity
 
 
